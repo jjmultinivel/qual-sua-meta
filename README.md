@@ -45,5 +45,6 @@ O *ID* vem logo após o termo `currencies`.
 - **Moeda**: Request Network;
 - **URL**: `https://coinmarketcap.com/currencies/request-network/`;
 - **Logo**, o ID é `request-network`.
+- Adicione com `""` na variável global, **Exemplo:** `"request-network": 10.5`.
 
 [CoinMarketCap]: <https://coinmarketcap.com>
