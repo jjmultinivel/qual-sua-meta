@@ -1,7 +1,9 @@
-# Qual sua meta?
+﻿# Qual sua meta?
 
 > Qual sua meta é simplemente uma ferramenta que ajudará você na hora de contabilizar
 > o seu saldo em criptomoedas.
+> Vem mostrando respectivamente, Cotação BTC ■ Fiat, moedas em posse, balanço da moeda
+> em fiat e BTC, porcentagem correspondente ao total.
 
 ![Visualização do sistema](./public/img/print.png)
 
@@ -28,8 +30,10 @@
 
 ## Observações:
 
-- Usamos o [CoinMarketCap] para obter os dados, portanto, a nome da moeda aqui adicionada deve corresponder com o *ID* da mesma na API;
+- Usamos o [CoinMarketCap] para obter os dados, portanto, o nome da moeda aqui adicionada deve corresponder com o *ID* da mesma na API;
 - Foi testado apenas no Google Chrome e não está responsivo (ainda) \`:^P.
+- Troque `'BRL'` para a fiat desejada.
+- Assim que atingir a meta, um alerta visual chamará a atençao caso outra página esteja aberta.
 
 ### Como obter ID da moeda?
 

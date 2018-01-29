@@ -27,7 +27,7 @@
 
 /* Elements */
 .container {
-    background: linear-gradient(141deg, #9b59b6 0%, #9e5eb8 51%, #8e55ad 75%);
+    background: linear-gradient(141deg, #4b35b6 0%, #4e4eb5 51%, #2e55ad 75%);
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -79,11 +79,11 @@
 }
 
 .coin-list {
-    background-color: #8e44ad;
-    border-radius: 5px;
+    background-color: #4e22ad;
+    border-radius: 50px;
     color: rgba(255, 255, 255, 0.85);
     display: flex;
-    font-size: 1.5em;
+    font-size: 1.3em;
     justify-content: space-between;
     list-style: none;
     margin-bottom: 10px;
@@ -93,7 +93,7 @@
 }
 
 .coin-list.no-show {
-    background-color: #8e47ad;
+    background-color: #4e23ad;
     color: rgba(255, 255, 255, 0.5);
     text-decoration: line-through;
 }
@@ -123,7 +123,7 @@
 }
 
 .use-coin > .show-coin {
-    width: 32px;
+    width: 26px;
 }
 
 #amount {
@@ -137,7 +137,7 @@
 
 .progress,
 .progress-goal {
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .progress-goal {
